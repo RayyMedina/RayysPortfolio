@@ -10,7 +10,7 @@ import {
   AZDOC,
   yellowbricklogo,
   yellowbrick,
-  Blacklogo,
+  image,
   borderpatrol,
   sql,
   net,
@@ -106,7 +106,7 @@ const experiences = [
   {
     title: "Supervisory Emergency Medical Technician",
     company_name: "Allied Universal",
-    icon: Blacklogo,
+    icon: image,
     iconBg: "#E6DEDD",
     date: "May 2021 - March 2023",
     points: [

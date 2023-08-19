@@ -28,10 +28,10 @@ import blackjack from "./blackjack.png"
 import armylogo from "./company/armylogo.png";
 import borderpatrol from "./borderpatrol.png";
 import AZDOC from "./AZDOC.png";
+import image from "./image.jpg";
 import yellowbricklogo from "./company/yellowbricklogo.png";
 import worldPrint from "./company/worldPrint.png";
 import up from "./company/up.png"
-import Blacklogo from "./company/Blacklogo.png"
 
 
 import larry from "./testimonials/larry.png"
@@ -65,7 +65,7 @@ export {
   reactjs,
   threejs,
   armylogo,
-  Blacklogo,
+  image,
   AZDOC,
   borderpatrol,
   worldPrint,
