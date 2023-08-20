@@ -21,7 +21,9 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
+        <div className=" relative flex justify-content-center">
         <About />
+        </div>
         <Experience />
         <Tech />
         <Works />

@@ -4,8 +4,8 @@ import { OrbitControls, Preload, useGLTF, Float } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
-const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./laptop/scene.gltf");
+const Laptop = ({ isMobile }) => {
+  const laptop = useGLTF("./laptop/scene.gltf");
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
@@ -54,8 +54,8 @@ const Computers = ({ isMobile }) => {
         <pointLight intensity={2} />
 
         <primitive
-          object={computer.scene}
-          scale={isMobile ? 0.7 : 1.5}
+          object={laptop.scene}
+          scale={isMobile ? 2.0 : 1.1}
           position={isMobile ? [0, -2, 0] : [0, -1.2, 0]}
           rotation={[0.13, 1, 0.1]}
         />
@@ -64,7 +64,7 @@ const Computers = ({ isMobile }) => {
   );
 };
 
-const ComputersCanvas = () => {
+const LaptopCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -98,7 +98,7 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls enableZoom={false} />
-        <Computers isMobile={isMobile} />
+        <Laptop isMobile={isMobile} />
       </Suspense>
 
       <Preload all />
@@ -106,4 +106,4 @@ const ComputersCanvas = () => {
   );
 };
 
-export default ComputersCanvas;
+export default LaptopCanvas;

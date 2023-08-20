@@ -14,7 +14,6 @@ const ProjectCard = ({
   description,
   tags,
   image,
-  source_code_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -24,7 +23,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="outline p-5 rounded-2xl sm:w-[360px] w-full"
+        className="outline p-3 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -35,7 +34,7 @@ const ProjectCard = ({
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open("https://github.com/RayyMedina")}
+              onClick={() => window.open("https://github.com/RayyMedina/YellowBrick")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
@@ -52,7 +51,7 @@ const ProjectCard = ({
           <p className="mt-2 text-secondary text-[19px]">{description}</p>
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-2 flex flex-wrap gap-2">
           {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}

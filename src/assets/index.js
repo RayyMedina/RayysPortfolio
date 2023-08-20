@@ -26,26 +26,17 @@ import wp from "./wp.png"
 import blackjack from "./blackjack.png"
 
 import armylogo from "./company/armylogo.png";
+import yellowbricklogo from "./company/yellowbricklogo.png";
 import borderpatrol from "./borderpatrol.png";
 import AZDOC from "./AZDOC.png";
-import image from "./image.jpg";
-import yellowbricklogo from "./company/yellowbricklogo.png";
-import worldPrint from "./company/worldPrint.png";
-import up from "./company/up.png"
+import image from "./image.png";
 
-
-import larry from "./testimonials/larry.png"
-import victor from "./testimonials/victor.png"
 import sean from "./testimonials/sean.png"
 
 import linkedIn from "./contacts/linkedIn.png"
 import ghLogo from "./contacts/ghlogo.png"
 import stack from "./contacts/stack.png"
 import facebook from "./contacts/facebook.png"
-
-
-
-
 
 
 export {
@@ -68,7 +59,6 @@ export {
   image,
   AZDOC,
   borderpatrol,
-  worldPrint,
   wp,
   yellowbrick,
   sql,
@@ -76,14 +66,11 @@ export {
   csharp,
   yellowbricklogo,
   tiktaktoe,
-  larry,
-  victor,
   sean,
   linkedIn,
   ghLogo,
   stack,
   facebook,
   nlogo,
-  up,
   blackjack
 };

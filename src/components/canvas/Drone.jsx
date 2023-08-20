@@ -55,7 +55,7 @@ const Drone = ({ isMobile }) => {
 
         <primitive
           object={drone.scene}
-          scale={isMobile ? 2.7 : 2}
+          scale={isMobile ? 1.5 : 2}
           position={isMobile ? [0, -2, 0] : [0, -1.2, 0]}
           rotation={[0.13, 1, 0.1]}
         />

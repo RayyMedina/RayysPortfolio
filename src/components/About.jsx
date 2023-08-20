@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className="bg-black rounded-[25px] py-5 px-12 min-h-[200px] flex justify-center items-center flex-row"
+        className="bg-black rounded-[25px] py-5 px-12 min-h-[200px] flex justify-center items-center flex-col"
       >
         <img
           src={icon}
@@ -27,7 +27,7 @@ const ServiceCard = ({ index, title, icon }) => (
           className="w-16 h-16 object-contain"
         />
 
-        <h3 className="text-white text-[20px] font-bold text-center">
+        <h3 className="text-white text-[25px] font-bold text-center">
           {title}
         </h3>
       </div>
@@ -57,7 +57,7 @@ const About = () => {
         solutions that make a meaningful impact.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-10 ms-40 flex flex-wrap gap-10 ">
         {services.map((service, index) => (
           <ServiceCard
             key={service.title}

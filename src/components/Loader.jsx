@@ -13,7 +13,7 @@ const CanvasLoader = () => {
         flexDirection: "column",
       }}
     >
-      <span className="canvas-loader"></span>
+      <span className="canvas-loader">
       <p
         style={{
           fontSize: 30,
@@ -24,6 +24,7 @@ const CanvasLoader = () => {
       >
         {progress.toFixed(2)}%
       </p>
+      </span>
     </Html>
   );
 };

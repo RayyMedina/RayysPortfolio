@@ -107,7 +107,7 @@ const experiences = [
     title: "Supervisory Emergency Medical Technician",
     company_name: "Allied Universal",
     icon: image,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "May 2021 - March 2023",
     points: [
       "Responded to emergency situations in a rapid and safe manner.",
@@ -119,7 +119,7 @@ const experiences = [
     title: "Border Patrol Agent",
     company_name: "Department of Homeland Security",
     icon: borderpatrol,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Aug 2018 - Aug 2019",
     points: [
       "Detected, prevented, and apprehended undocumented aliens, smugglers of aliens, and illegal narcotics.",
@@ -131,7 +131,7 @@ const experiences = [
     title: "Corrections Officer",
     company_name: "Arizona Department of Corrections",
     icon: AZDOC,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Jan 2017 - Aug 2018",
     points: [
       "Enforced rules and maintained order inside of the prison.",
