@@ -196,7 +196,7 @@ const projects = [
   {
     name: "Tic-Tac-Toe",
     description:
-      "You can learn a lot from nostagia !",
+      "You can learn a lot from nostagia.",
     tags: [
       {
         name: "JS",

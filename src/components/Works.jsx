@@ -34,7 +34,7 @@ const ProjectCard = ({
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
-              onClick={() => window.open("https://github.com/RayyMedina/YellowBrick")}
+              onClick={() => window.open("https://github.com/RayyMedina")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
