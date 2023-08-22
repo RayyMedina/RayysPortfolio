@@ -15,6 +15,7 @@ import {
   sql,
   net,
   csharp,
+  xVo,
   //sean,
 } from "../assets";
 
@@ -191,6 +192,31 @@ const projects = [
     ],
     image: yellowbrick,
     source_code_link: "https://yellowbrickfinancial.com/",
+  }, 
+  {
+    name: "Tic-Tac-Toe",
+    description:
+      "You can learn a lot from nostagia !",
+    tags: [
+      {
+        name: "JS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: xVo,
+    source_code_link: "https://github.com/RayyMedina/Tic-Tac-Toe",
   },
 ];
 

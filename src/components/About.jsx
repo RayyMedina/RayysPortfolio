@@ -39,10 +39,10 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+      <span className="text-center"><p className={styles.sectionSubText}>Introduction</p></span>
+        <span className="text-center"><h2 className={styles.sectionHeadText}>Overview</h2></span>
       </motion.div>
-
+      <span className="text-center">
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[20px] max-w-3xl leading-[30px]"
@@ -56,7 +56,7 @@ const About = () => {
         culture of empathy and collaboration. Together, let's create innovative
         solutions that make a meaningful impact.
       </motion.p>
-
+      </span>
       <div className="mt-10 ms-40 flex flex-wrap gap-10 ">
         {services.map((service, index) => (
           <ServiceCard
